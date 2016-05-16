@@ -1,0 +1,186 @@
+/* FONTS */
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("fonts/Montserrat-Light.otf") format("OpenType");
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("fonts/Montserrat-Regular.otf") format("OpenType");
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url("fonts/Montserrat-SemiBold.otf") format("OpenType");
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+
+/* NAVIGATION PILLS*/
+
+.nav {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px #CECECE;
+}
+
+.nav-tabs > li > a {
+    border: medium none;
+    color: #EBEBEB;
+    font-family: Montserrat-Regular;
+    transition: all 1s ease;
+}
+
+.nav-tabs > li > a:hover {
+    background-color: #dd5555 !important;
+    border: medium none;
+    border-radius: 0;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus {
+    color: #dd5555;
+    border: transparent!important;
+}
+
+.nav-tabs>li.active>a:hover {
+    color: #ffffff;
+}
+
+.nav-tabs > li,
+.nav-pills > li {
+    float: none;
+    display: inline-block;
+    *display: inline;
+    /* for IE7*/
+    *zoom: 1;
+    /* for IE7*/
+}
+
+.nav-tabs {
+    text-align: center;
+}
+
+
+/* ICONS */
+
+i {
+    color: #EBEBEB;
+    transition: all 0.5s ease;
+}
+
+i:hover {
+    color: #DD5555;
+}
+
+
+/* CONTENT */
+
+.content {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px #CECECE;
+}
+
+.btn,
+.btn:hover {
+    background-color: #DD5555;
+    color: white;
+    font-family: Montserrat-Light;
+    padding: 5px 25px 5px 25px;
+}
+
+.btn-more,
+.btn-more:hover {
+    font-size: 11px;
+    padding: 5px 15px 5px 15px;
+    background-color: #DD5555;
+    color: white;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: Montserrat-SemiBold;
+    color: #DD5555;
+    font-size: 22px;
+}
+
+h2 {
+    font-family: Montserrat-SemiBold;
+    color: #DD5555;
+    font-size: 18px;
+}
+
+p {
+    font-family: Montserrat-Regular;
+    color: #CECECE;
+}
+
+
+/* ABOUT */
+
+.social {
+    margin-top: 50px;
+}
+
+.social li {
+    display: inline;
+    margin-right: 35px;
+}
+
+
+/* WORK */
+
+.work {
+    padding: 20px;
+    margin-left: 20px;
+    border-left: 2px solid #DD5555;
+}
+
+.media {
+    margin-left: -29px;
+}
+
+.work i {
+    color: #DD5555;
+}
+
+
+/* CONTACT */
+
+.contact i {
+    color: #ffffff;
+}
+
+.form-horizontal {
+    padding: 15px;
+}
+
+.form-control {
+    border: transparent!important;
+    background-color: #EBEBEB;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group-addon {
+    background-color: #DD5555;
+    color: #ffffff;
+    font-family: Montserrat-Regular;
+    border: transparent!important;
+}
